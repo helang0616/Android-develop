@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue">#0000FF</color><!--蓝色 -->
+    <color name="red">#FF0000</color><!--红色 -->
+    <color name="orange">#FFA500</color><!--橙色 -->
+    <color name="yellow">#FFFF00</color><!--黄色 -->
+    <color name="green">#008000</color><!--绿色 -->
+    <color name="indigo">#4B0082</color><!--靛青色 -->
+    <color name="violet">#EE82EE</color><!--紫罗兰色 -->
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="black">#000000</color><!--黑色 -->
+</resources>
