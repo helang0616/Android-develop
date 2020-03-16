@@ -12,8 +12,6 @@
         android:layout_height="wrap_content">
         <TableRow>
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingLeft="25dp"
                 android:background="@color/black"
@@ -28,8 +26,6 @@
         </TableRow>
         <TableRow>
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingLeft="25dp"
                 android:background="@color/black"
@@ -44,8 +40,6 @@
         </TableRow>
         <TableRow>
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingLeft="25dp"
                 android:background="@color/black"
@@ -58,6 +52,9 @@
                 android:text="Ctrl-Shift-S"
                 />
         </TableRow>
+        <View
+            android:layout_height="2dp"
+            android:background="@color/white" />
     </TableLayout>
     <TableLayout
         android:layout_width="match_parent"
@@ -69,8 +66,6 @@
                 android:text="X"
                 />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingLeft="15dp"
                 android:background="@color/black"
@@ -84,8 +79,6 @@
                 android:text="X"
                 />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingLeft="15dp"
                 android:background="@color/black"
@@ -98,14 +91,15 @@
                 android:text="Ctrl-E"
                 />
         </TableRow>
+        <View
+            android:layout_height="2dp"
+            android:background="@color/white" />
     </TableLayout>
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TableRow>
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingLeft="25dp"
                 android:background="@color/black"
