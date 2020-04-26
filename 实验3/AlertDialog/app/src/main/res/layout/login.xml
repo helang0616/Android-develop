@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/holo_orange_light"
+		android:gravity="center"
+		android:text="ANDROID APP"
+		android:textColor="@android:color/white"
+		android:textSize="20sp" />
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Username"
+		android:textSize="18sp" />
+
+	<EditText
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Password"
+		android:textSize="18sp" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp"
+		android:orientation="horizontal"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp">
+
+		<Button
+			android:id="@+id/cancel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="10dp"
+			android:layout_weight="1"
+			android:background="#F1F3F4"
+			android:text="Cancel"
+			android:textColor="@android:color/black"
+			android:textSize="16sp" />
+
+		<Button
+			android:id="@+id/login"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="#F1F3F4"
+			android:text="Sign in"
+			android:textColor="@android:color/black"
+			android:textSize="16sp" />
+	</LinearLayout>
+</LinearLayout>
